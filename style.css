@@ -17,6 +17,17 @@ body{
     background-color: #eee;
     border-radius: 8px;
 }
+.display > #display1{
+    font-size: 45px;
+    padding: 5px;
+    text-align: right;
+}
+.display > #result{
+    font-size: 90px;
+    text-align: right;
+    padding-bottom:5 px;
+    padding-right: 5px;
+}
 .clearDelete button{
     height: 75px;
     width: 175px;
