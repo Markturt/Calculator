@@ -1,0 +1,44 @@
+body{
+    background-color: #eee;
+}
+.container{
+    border: 2px solid black;
+    background-color: #aaa;
+    box-sizing: border-box;
+    height: 500px;
+    margin: 40px auto;
+    width:400px;
+    border-radius: 10px;
+}
+.display{
+    margin: 10px 15px;
+    border: 2px solid black;
+    height: 120px;
+    background-color: #eee;
+    border-radius: 8px;
+}
+.clearDelete button{
+    height: 60px;
+    width: 175px;
+}
+#delete, #clear{
+    margin-left: 15px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+#clear{
+    background-color: #FFAAAA;
+}
+#delete{
+    background-color: #AAAAFF;
+}
+.button {
+    margin-top: 10px;
+}
+.button button{
+    height: 60px;
+    width:78px;
+    margin-left:15px;
+    border-radius:5px;
+    font-weight: 600;
+}
