@@ -8,46 +8,38 @@
     <body>
         <div class="container">
             <div class="display">
-                <div id="display1"></div>
-                <div id="result"></div>
+                <div id="previous"></div>
+                <div id="current"></div>
             </div>
-            <div class="clearDelete">
+            <div>
                 <button id="clear">CLEAR</button>
                 <button id="delete">DELETE</button>
             </div>
-            <div class="button">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button id="division">/</button>
+            <div class="numberWrap">
+                <button class="dataNumber">7</button>
+                <button class="dataNumber">8</button>
+                <button class="dataNumber">9</button>
+                <button class="operation">/</button>
             </div>
-            <div class="button">
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button id="multiply">*</button>
+            <div class="numberWrap">
+                <button class="dataNumber">4</button>
+                <button class="dataNumber">5</button>
+                <button class="dataNumber">6</button>
+                <button class="operation">*</button>
             </div>
-            <div class="button">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button id="subtract">-</button>
+            <div class="numberWrap">
+                <button class="dataNumber">1</button>
+                <button class="dataNumber">2</button>
+                <button class="dataNumber">3</button>
+                <button class="operation">-</button>
             </div>
-            <div class="button">
-                <div class="button">
-                    <button>.</button>
-                    <button>0</button>
+            <div class="numberWrap">
+                    <button class="dataNumber">.</button>
+                    <button class="dataNumber">0</button>
                     <button id="equals">=</button>
-                    <button id="add">+</button>
-                </div>
+                    <button class="operation">+</button>
             </div>
         </div>
         <script src="calc.js"></script>
-        <script>
-            let calculate=populateDisplay();
-            
-
-
-        </script>
     </body>
 </html>

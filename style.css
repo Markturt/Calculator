@@ -17,22 +17,21 @@ body{
     background-color: #eee;
     border-radius: 8px;
 }
-.display > #display1{
+.display > #current{
     font-size: 45px;
     padding: 5px;
     text-align: right;
+    
 }
-.display > #result{
+.display > #previous{
     font-size: 90px;
     text-align: right;
     padding-bottom:5 px;
     padding-right: 5px;
 }
-.clearDelete button{
+#clear,#delete{
     height: 75px;
     width: 175px;
-}
-#delete, #clear{
     margin-left: 15px;
     border-radius: 8px;
     font-weight: 600;
@@ -43,10 +42,10 @@ body{
 #delete{
     background-color: #AAAAFF;
 }
-.button {
+.numberWrap button {
     margin-top: 10px;
 }
-.button button{
+div button{
     height: 75px;
     width:78px;
     margin-left:15px;
